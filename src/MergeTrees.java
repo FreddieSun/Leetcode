@@ -19,7 +19,7 @@ public class MergeTrees {
     }
 
      //* Definition for a binary tree node.
-      public class TreeNode {
+      public  class TreeNode {
           int val;
           TreeNode left;
           TreeNode right;
