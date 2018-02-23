@@ -19,6 +19,6 @@ public class FizzBuzz {
     public static void main(String[] args){
         int n=3;
         List<String> list=fizzBuzz(n);
-
+        System.out.println(String.valueOf(1^8));
     }
 }
