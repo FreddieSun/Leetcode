@@ -1,4 +1,4 @@
-import javax.swing.tree.TreeNode;
+
 
 public class MergeTrees {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
@@ -18,12 +18,5 @@ public class MergeTrees {
 
     }
 
-     //* Definition for a binary tree node.
-      public  class TreeNode {
-          int val;
-          TreeNode left;
-          TreeNode right;
-          TreeNode(int x) { val = x; }
-     }
 
 }
