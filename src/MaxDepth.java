@@ -9,13 +9,7 @@ public class MaxDepth {
 
         return resL>resR ? resL:resR;
     }
-    //* Definition for a binary tree node.
-    public class TreeNode {
-        int val;
-        MergeTrees.TreeNode left;
-        MergeTrees.TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
+
 
 
 }
