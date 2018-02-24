@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PreorderTraversal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InorderTraversal.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/IsBalanced.java" afterPath="$PROJECT_DIR$/src/IsBalanced.java" />
-      <change beforePath="$PROJECT_DIR$/src/MaxDepth.java" afterPath="$PROJECT_DIR$/src/MaxDepth.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,16 +40,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="islandPerimeter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/islandPerimeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -99,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -108,6 +96,20 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#209#218#0" expanded="true" />
                 <element signature="e#624#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#215#0" expanded="true" />
+                <element signature="e#598#607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/MaxDepth.java" />
         <option value="$PROJECT_DIR$/src/IsBalanced.java" />
         <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/InorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -400,7 +403,7 @@
       <workItem from="1519334159806" duration="3923000" />
       <workItem from="1519396815716" duration="3727000" />
       <workItem from="1519435509822" duration="1189000" />
-      <workItem from="1519480990721" duration="1037000" />
+      <workItem from="1519480990721" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -465,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519446434935</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2/24">
+      <created>1519482724757</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519482724757</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10588000" />
+    <option name="totallyTimeSpent" value="11246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -511,7 +521,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="numJewelsInStones" />
     <MESSAGE value="2/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/23" />
+    <MESSAGE value="2/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,6 +894,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#209#218#0" expanded="true" />
             <element signature="e#624#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#215#0" expanded="true" />
+            <element signature="e#598#607#0" expanded="true" />
           </folding>
         </state>
       </provider>
