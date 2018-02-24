@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PostorderTraversal.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/InorderTraversal.java" afterPath="$PROJECT_DIR$/src/InorderTraversal.java" />
+      <change beforePath="$PROJECT_DIR$/src/PostorderTraversal.java" afterPath="$PROJECT_DIR$/src/PostorderTraversal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,28 +92,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="312">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#208#217#0" expanded="true" />
-                <element signature="e#610#619#0" expanded="true" />
+                <element signature="e#237#246#0" expanded="true" />
+                <element signature="e#644#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostorderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PostorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#186#195#0" expanded="true" />
+                <element signature="e#210#219#0" expanded="true" />
+                <element signature="e#605#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/MaxDepth.java" />
         <option value="$PROJECT_DIR$/src/IsBalanced.java" />
         <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/InorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/PostorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/InorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -407,7 +409,7 @@
       <workItem from="1519334159806" duration="3923000" />
       <workItem from="1519396815716" duration="3727000" />
       <workItem from="1519435509822" duration="1189000" />
-      <workItem from="1519480990721" duration="3458000" />
+      <workItem from="1519480990721" duration="4948000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -493,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519496814146</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2/24">
+      <created>1519497783013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519497783013</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13009000" />
+    <option name="totallyTimeSpent" value="14499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -916,25 +925,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/PostorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#208#217#0" expanded="true" />
-            <element signature="e#610#619#0" expanded="true" />
+            <element signature="e#210#219#0" expanded="true" />
+            <element signature="e#605#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PostorderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="312">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#186#195#0" expanded="true" />
+            <element signature="e#237#246#0" expanded="true" />
+            <element signature="e#644#653#0" expanded="true" />
           </folding>
         </state>
       </provider>

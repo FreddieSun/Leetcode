@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -18,18 +19,15 @@ public class InorderTraversal {
     }
 
     public List<Integer> inorderTraversalStack(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
-        Stack<TreeNode> stack = new Stack<>();
-        if (root == null) return res;
-        TreeNode cur = root;
-        while (!stack.isEmpty() || cur != null) {
-            while (cur != null) {
-                stack.push(cur);
-                cur = cur.left;
-            }
-            cur = stack.pop();
-            res.add(cur.val);
-            cur = cur.right;
+        LinkedList<Integer> res=new LinkedList<Integer>();
+        Stack<TreeNode> stack=new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()){
+            TreeNode cur=stack.pop();
+            res.addFirst(cur.val);
+            if(cur.left!=null) stack.push(cur.left);
+            if(cur.right!=null) stack.push(cur.right);
+
         }
         return res;
     }
