@@ -25,4 +25,39 @@ public class ThreeSum {
         }
         return res;
     }
+
+    public List<List<Integer>> threeSum2(int[] nums) {
+        List<List<Integer>> res=new ArrayList<>();
+        Arrays.sort(nums);
+        int N=nums.length;
+
+        for(int i=0;i<N-2;i++){
+            if(i>0 && nums[i] == nums[i-1])
+                continue;
+            int a=nums[i];
+            int left=i+1;
+            int right=N-1;
+            while(left<right){
+                int b=nums[left];
+                int c=nums[right];
+                if(a+b+c<0){
+                    while(left < right && nums[left+1] == nums[left]) left ++;
+                    left++;
+                }
+                else if(a+b+c>0){
+                    while(left < right && nums[right-1] == nums[right]) right--;
+                    right--;
+                }else{
+                    res.add(Arrays.asList(a,b,c));
+                    while(left < right && nums[right-1] == nums[right]) right--;
+
+                    right--;
+                    left++;
+                }
+
+            }
+        }
+
+        return res;
+    }
 }
