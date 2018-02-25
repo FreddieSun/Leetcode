@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/levelOrder.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/InorderTraversal.java" afterPath="$PROJECT_DIR$/src/InorderTraversal.java" />
-      <change beforePath="$PROJECT_DIR$/src/PostorderTraversal.java" afterPath="$PROJECT_DIR$/src/PostorderTraversal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,18 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDisappearedNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindDisappearedNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IsSameTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsSameTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,15 +80,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#246#0" expanded="true" />
-                <element signature="e#644#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="levelOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/levelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/PostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/InorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/levelOrder.java" />
       </list>
     </option>
   </component>
@@ -409,7 +409,7 @@
       <workItem from="1519334159806" duration="3923000" />
       <workItem from="1519396815716" duration="3727000" />
       <workItem from="1519435509822" duration="1189000" />
-      <workItem from="1519480990721" duration="4948000" />
+      <workItem from="1519480990721" duration="7520000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -502,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519497783013</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2/24">
+      <created>1519507846013</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1519507846013</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14499000" />
+    <option name="totallyTimeSpent" value="17071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -939,12 +946,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#246#0" expanded="true" />
-            <element signature="e#644#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/levelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
