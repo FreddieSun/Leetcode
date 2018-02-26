@@ -8,11 +8,14 @@ public class MajorityElement {
         for ( int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
                 map.put(nums[i],map.get(nums[i]) + 1);
-                if(map.get(nums[i])>nums.length/2)
+                if(map.get(nums[i])>nums.length/2) {
                     res = nums[i];
+                    break;
+                }
             } else {
                 map.put(nums[i] , 1);
             }
+
         }
         return res;
     }
