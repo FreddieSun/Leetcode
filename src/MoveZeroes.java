@@ -16,4 +16,22 @@ public class MoveZeroes {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+    public void moveZeroes2(int[] nums) {
+        // kind of like double pointer.
+        if (nums == null || nums.length == 0)
+            return;
+
+        int insertIndex = 0;
+        for (int num : nums){
+            if (num != 0)
+                nums[insertIndex++] = num;
+        }
+
+        while (insertIndex < nums.length){
+            nums[insertIndex++] = 0;
+        }
+
+
+    }
 }
