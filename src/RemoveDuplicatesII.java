@@ -21,4 +21,26 @@ public class RemoveDuplicatesII {
     }
 
 
+    // Key point: this is an sorted array, and at most 2 duplicates.
+    // So we can extend our solution to more general situation.
+
+    public int removeDuplicates2(int[] nums) {
+        int i = 0;
+        for (int n : nums)
+            if (i < 2 || n > nums[i-2])
+                nums[i++] = n;
+        return i;
+    }
+
+    // Sorted array, at most k duplicates
+    public int removeDuplicates3(int[] nums, int k) {
+        int i = 0;
+
+        for (int n: nums) {
+            if (i < k || n > nums[k]) {
+                nums[i++] = n;
+            }
+        }
+        return i;
+    }
 }
