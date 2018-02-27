@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Rotate.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicatesII.java" afterPath="$PROJECT_DIR$/src/RemoveDuplicatesII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,16 +35,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvertTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InvertTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplicatesII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveDuplicatesII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RemoveDuplicatesII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="514">
               <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rotate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Rotate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -189,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicatesII.java" />
+        <option value="$PROJECT_DIR$/src/Rotate.java" />
       </list>
     </option>
   </component>
@@ -415,7 +416,7 @@
       <workItem from="1519526158798" duration="4129000" />
       <workItem from="1519611722531" duration="398000" />
       <workItem from="1519658877889" duration="1046000" />
-      <workItem from="1519680709001" duration="420000" />
+      <workItem from="1519680709001" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -620,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519680844344</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2/26">
+      <created>1519681225806</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1519681225806</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23461000" />
+    <option name="totallyTimeSpent" value="24054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -730,13 +738,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindDisappearedNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1077,6 +1078,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
