@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Rotate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/GetSum_Bit_Manipulation.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PreorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="levelOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/levelOrder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rotate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rotate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rotate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetSum_Bit_Manipulation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GetSum_Bit_Manipulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -190,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicatesII.java" />
         <option value="$PROJECT_DIR$/src/Rotate.java" />
+        <option value="$PROJECT_DIR$/src/GetSum_Bit_Manipulation.java" />
       </list>
     </option>
   </component>
@@ -416,7 +415,7 @@
       <workItem from="1519526158798" duration="4129000" />
       <workItem from="1519611722531" duration="398000" />
       <workItem from="1519658877889" duration="1046000" />
-      <workItem from="1519680709001" duration="1013000" />
+      <workItem from="1519680709001" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -628,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519681225806</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2/26">
+      <created>1519691938099</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1519691938099</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24054000" />
+    <option name="totallyTimeSpent" value="24365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -738,13 +744,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FindDisappearedNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsSameTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1086,6 +1085,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetSum_Bit_Manipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
