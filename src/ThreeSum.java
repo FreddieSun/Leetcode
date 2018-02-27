@@ -9,11 +9,13 @@ public class ThreeSum {
 
         for(int i=0;i<nums.length;i++){
             map.clear();
+            // skip the duplicate
             if(i==0||nums[i-1]<nums[i]){
                 for(int j=i+1;j<nums.length;j++){
                     if(map.containsKey(nums[j])){
                         int[] temp=map.get(nums[j]);
                         res.add(Arrays.asList(temp[0],temp[1],nums[j]));
+                        // skip the duplicate
                         while(j<nums.length-1&&nums[j]==nums[j+1])
                             j++;
                     }else{
@@ -60,4 +62,6 @@ public class ThreeSum {
 
         return res;
     }
+
+
 }
