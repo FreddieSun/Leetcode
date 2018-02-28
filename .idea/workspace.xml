@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/TitleToNumber.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -412,7 +411,7 @@
       <workItem from="1519526158798" duration="4129000" />
       <workItem from="1519611722531" duration="398000" />
       <workItem from="1519658877889" duration="1046000" />
-      <workItem from="1519680709001" duration="3587000" />
+      <workItem from="1519680709001" duration="3608000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1519353122122</created>
@@ -652,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519699513469</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2/26">
+      <created>1519791378755</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1519791378755</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26628000" />
+    <option name="totallyTimeSpent" value="26649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
