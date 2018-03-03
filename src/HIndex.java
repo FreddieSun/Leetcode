@@ -14,9 +14,4 @@ public class HIndex {
         return res;
     }
 
-    public static void main(String[] args) {
-        int[] nums = {1,2,6,8};
-        int res = hIndex(nums);
-        System.out.println(res);
-    }
 }
