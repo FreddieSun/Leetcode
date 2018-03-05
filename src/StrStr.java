@@ -14,4 +14,18 @@ public class StrStr {
         }
         return -1;
     }
+
+    public int strStr2(String haystack, String needle) {
+        if (needle.isEmpty()) return 0;
+
+        int srcSize = haystack.length();
+        int dstSize = needle.length();
+        for (int i = 0; i <= srcSize - dstSize; i++) {
+            for (int j = 0; j < dstSize && haystack.charAt(i+j) == needle.charAt(j); j++) {
+                if (j == dstSize - 1)
+                    return i;
+            }
+        }
+        return -1;
+    }
 }
