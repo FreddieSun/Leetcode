@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FirstUniqChar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CanConstruct.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -97,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstUniqChar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstUniqChar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FirstUniqChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetSum_Bit_Manipulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GetSum_Bit_Manipulation.java">
+      <file leaf-file-name="CanConstruct.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CanConstruct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/LengthOfLastWord.java" />
         <option value="$PROJECT_DIR$/src/ReverseWords.java" />
         <option value="$PROJECT_DIR$/src/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/CanConstruct.java" />
       </list>
     </option>
   </component>
@@ -207,8 +208,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="298" />
-    <option name="y" value="23" />
+    <option name="x" value="522" />
+    <option name="y" value="38" />
     <option name="width" value="960" />
     <option name="height" value="877" />
   </component>
@@ -471,14 +472,7 @@
       <workItem from="1520039577796" duration="1468000" />
       <workItem from="1520225691394" duration="3218000" />
       <workItem from="1520274232207" duration="1995000" />
-      <workItem from="1520291105639" duration="24000" />
-    </task>
-    <task id="LOCAL-00001" summary="first">
-      <created>1519353122122</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1519353122122</updated>
+      <workItem from="1520291105639" duration="1565000" />
     </task>
     <task id="LOCAL-00002" summary="numJewelsInStones">
       <created>1519397056316</created>
@@ -809,14 +803,28 @@
       <option name="project" value="LOCAL" />
       <updated>1520276813354</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="3/5">
+      <created>1520291138855</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1520291138855</updated>
+    </task>
+    <task id="LOCAL-00050" summary="3/5">
+      <created>1520302291329</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1520302291329</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35989000" />
+    <option name="totallyTimeSpent" value="37530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="298" y="23" width="960" height="877" extended-state="0" />
+    <frame x="522" y="38" width="960" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -930,7 +938,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/349/leetcode349.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode349.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode349.java" />
     <entry file="file://$PROJECT_DIR$/src/349/leetcode349.java" />
@@ -1248,14 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LengthOfLastWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1268,8 +1267,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LengthOfLastWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CanConstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
