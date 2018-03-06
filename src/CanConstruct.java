@@ -10,4 +10,8 @@ public class CanConstruct {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        String vowels = "aeiouAEIOU";
+    }
 }
