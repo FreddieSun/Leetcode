@@ -15,6 +15,6 @@ public class ReverseWords {
         String origin = "ni zai     sad  dsadas d   d ";
         String[] reverse = origin.split("\\s+"); // \\ 代表空格，换行符 回车， +代表可以为多个
         for(String s: reverse)
-            System.out.println(s);
+            System.out.println(reverse[1]);
     }
 }
