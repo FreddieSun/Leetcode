@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class WordPattern {
@@ -43,10 +45,19 @@ public class WordPattern {
 //
 //        String str = "s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s t t";
 //        System.out.println(wordPattern(pattern,str));
-        Integer a = 128;
-        Integer b = 128;
-        System.out.println("a==b"+"  "+String.valueOf(a==b));
-        System.out.println("a.equals(b)"+"  "+String.valueOf(a.equals(b)));
+//        Integer a = 128;
+//        Integer b = 128;
+//        System.out.println("a==b"+"  "+String.valueOf(a==b));
+//        System.out.println("a.equals(b)"+"  "+String.valueOf(a.equals(b)));
+        String a = "atr";
+        String b = "tra";
+        char[] chara = a.toCharArray();
+        char[] charb = b.toCharArray();
+        Arrays.sort(chara);
+        Arrays.sort(charb);
+        String resa = String.valueOf(chara);
+        String resb = String.valueOf(charb);
+        System.out.println(resa.contains(resb));
     }
 
 }
