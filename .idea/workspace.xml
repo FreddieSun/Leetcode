@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ReverseStr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ReverseWordsII.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/GroupAnagrams.java" afterPath="$PROJECT_DIR$/src/GroupAnagrams.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StrStr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StrStr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TitleToNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TitleToNumber.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,8 +25,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseStr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseStr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseStr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWordsII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReverseWordsII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
@@ -155,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/3/lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/HammingDistance.java" />
         <option value="$PROJECT_DIR$/src/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber.java" />
@@ -206,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/WordPattern.java" />
         <option value="$PROJECT_DIR$/src/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/ReverseStr.java" />
+        <option value="$PROJECT_DIR$/src/ReverseWordsII.java" />
       </list>
     </option>
   </component>
@@ -480,14 +479,7 @@
       <workItem from="1520274232207" duration="1995000" />
       <workItem from="1520291105639" duration="8033000" />
       <workItem from="1520454564374" duration="3030000" />
-      <workItem from="1520519754162" duration="47000" />
-    </task>
-    <task id="LOCAL-00006" summary="2/23">
-      <created>1519416232884</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1519416232884</updated>
+      <workItem from="1520519754162" duration="381000" />
     </task>
     <task id="LOCAL-00007" summary="2/23">
       <created>1519416337002</created>
@@ -825,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520458173276</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="3/8">
+      <created>1520519809790</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1520519809791</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47075000" />
+    <option name="totallyTimeSpent" value="47409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -906,7 +905,8 @@
     <MESSAGE value="3/4" />
     <MESSAGE value="3/5" />
     <MESSAGE value="3/7" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/7" />
+    <MESSAGE value="3/8" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,13 +974,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1256,6 +1249,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,6 +1345,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseWordsII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
