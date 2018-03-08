@@ -47,5 +47,11 @@ public class GroupAnagrams {
         return res;
     }
 
+    public static void main(String[] args) {
+        String[] list = {"b","a","cd","dc"};
+        Arrays.sort(list);
+        for(String s:list)
+            System.out.println(s);
+    }
 
 }
