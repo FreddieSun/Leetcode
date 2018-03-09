@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c9203d-f7a7-43fb-84c2-ba2dc8a05d98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MaxSubArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReverseStr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReverseStr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseWordsII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseWordsII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/IsAnagram.java" />
@@ -205,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/ReverseStr.java" />
         <option value="$PROJECT_DIR$/src/ReverseWordsII.java" />
         <option value="$PROJECT_DIR$/src/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
       </list>
     </option>
   </component>
@@ -480,14 +480,7 @@
       <workItem from="1520291105639" duration="8033000" />
       <workItem from="1520454564374" duration="3030000" />
       <workItem from="1520519754162" duration="600000" />
-      <workItem from="1520554078128" duration="876000" />
-    </task>
-    <task id="LOCAL-00008" summary="2/23">
-      <created>1519416500371</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1519416500371</updated>
+      <workItem from="1520554078128" duration="1460000" />
     </task>
     <task id="LOCAL-00009" summary="2/23">
       <created>1519446434935</created>
@@ -825,14 +818,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520520736233</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="3/8">
+      <created>1520563708965</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1520563708965</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48504000" />
+    <option name="totallyTimeSpent" value="49088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -844,7 +844,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4171705" sideWeight="0.5079872" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49499285" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -975,13 +975,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Jewels_and_Stones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1356,6 +1349,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
