@@ -54,7 +54,7 @@ public class CountSubstrings {
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j <= i; j++) {
                 dp[j][i] =s.charAt(i) == s.charAt(j) && ((i - j <= 2) || dp[j+1][i-1]);
-                if(dp[i][j])
+                if(dp[j][i])
                     res++;
             }
         }
