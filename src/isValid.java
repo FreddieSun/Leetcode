@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Stack;
 
 public class isValid {
@@ -15,5 +16,9 @@ public class isValid {
                 return false;
         }
         return stack.isEmpty();
+    }
+    public static void main(String[] args) {
+        HashMap<Character,Integer> map = new HashMap<>();
+
     }
 }
