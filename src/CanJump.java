@@ -21,4 +21,10 @@ public class CanJump {
         }
         return last <= 0;
     }
+
+    public static void main(String[] args) {
+        String A = "abcde";
+        String b = A.substring(0,A.length())+A.substring(0,0);
+        System.out.println(b);
+    }
 }
