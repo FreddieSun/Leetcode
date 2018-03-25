@@ -60,4 +60,28 @@ public class CountSubstrings {
         }
         return res;
     }
+
+
+    public int helper(char[] c) {
+        int res = 0;
+        //偶数
+        for (int i = 0; i < c.length; i++) {
+            int left = i;
+            int right = i + 1;
+            while ((left >= 0 && right < c.length) && c[left] == c[right]) {
+                res++;
+                left--;
+                right++;
+            }
+        }
+
+        for (int i = 0; i < c.length; i++) {
+            int j = 1;
+            while ((i - j >= 0 && i + j < c.length) && c[i - j] == c[i + j]) {
+                res++;
+                j++;
+            }
+        }
+        return res;
+    }
 }
