@@ -48,4 +48,36 @@ public class levelOrder {
         helper(res, root.left, level + 1);
         helper(res, root.right , level + 1);
     }
+
+    public List<List<Integer>> levelOrder3(TreeNode root) {
+
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
+        if (root == null)
+            return res;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        TreeNode last = root;
+        TreeNode nLast = last;
+        while (!queue.isEmpty()) {
+            TreeNode cur = queue.poll();
+            temp.add(cur.val);
+
+            if (cur.left != null) {
+                queue.offer(cur.left);
+                nLast = cur.left;
+            }
+            if (cur.right != null) {
+                queue.offer(cur.right);
+                nLast = cur.right;
+            }
+            if (cur == last) {
+                res.add(temp);
+                temp = new ArrayList<>();
+                last = nLast;
+            }
+        }
+        return res;
+    }
 }
